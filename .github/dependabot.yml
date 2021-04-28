@@ -3,7 +3,32 @@ updates:
 - package-ecosystem: npm
   directory: "/"
   schedule:
-    interval: weekly
+    interval: daily
+    time: "10:00"
   open-pull-requests-limit: 10
-  assignees:
-  - brianlovin
+  ignore:
+  - dependency-name: postcss
+    versions:
+    - 8.2.10
+    - 8.2.12
+    - 8.2.9
+  - dependency-name: tailwindcss
+    versions:
+    - 2.0.4
+    - 2.1.1
+  - dependency-name: eslint
+    versions:
+    - 7.23.0
+    - 7.24.0
+  - dependency-name: next-seo
+    versions:
+    - 4.23.0
+  - dependency-name: eslint-plugin-react
+    versions:
+    - 7.23.1
+  - dependency-name: "@types/jest"
+    versions:
+    - 26.0.22
+  - dependency-name: "@typescript-eslint/eslint-plugin"
+    versions:
+    - 4.20.0
