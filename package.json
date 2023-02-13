@@ -55,7 +55,7 @@
     "string-replace-to-array": "^1.0.3",
     "styled-components": "^4.4.1",
     "timeago.js": "^4.0.2",
-    "twilio": "^3.57.0",
+    "twilio": "^4.7.2",
     "unified": "^9.2.1",
     "unified-stream": "^1.0.6"
   },
